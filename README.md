@@ -22,11 +22,14 @@ Step 1: POST API with City Route
 • City name should allow only Alphabets in upper/ small case.
 • City name should not allow numeric/ special characters.
 • Once city name is inserted, provide the response via status codes.
+
 Step 2: GET API with City List Route
 • Provide the List of Cities available from Database in Json object.
+
 Step 3: Consume 3rd Party API
 • Run this API https://api.binance.com/api/v1/time
 • Console the Output in terminal
+
 Step 4: POST API with User Route
 • Post API should have 2 (three) mandatory parameters name and city.
 • Post API should have 2 (two) optional parameters mobile and media url.
@@ -40,8 +43,10 @@ Step 4: POST API with User Route
 • Once the user details have been inserted, provide the response via status codes along with
 inserted user details and ID.
 Note: ID must not be passed via API. It should be taken by Node.js script whenever the data is inserted.
+
 Step 5: GET API with User List Route
 • Provide the List of Users available from Database in Json object along with ID.
+
 Step 6: PATCH/ POST API with User Modify Route
 • PATCH/ POST API should allow modification of user data based on unique variable of ID.
 • PATCH/ POST API should allow modification of name, city, mobile and media url parameters.
